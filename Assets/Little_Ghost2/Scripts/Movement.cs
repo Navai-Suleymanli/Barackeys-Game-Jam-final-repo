@@ -5,16 +5,17 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [Header("Player Movement")]
-    public float speed = 1.9f;
+    [SerializeField] private float speed = 1.9f;
     [Header("Player Script Cameras")]
-    public Transform playerCamera;
+    [SerializeField] private Transform playerCamera;
     [Header("Player Animator and Gravity")]
-    public CharacterController cC;
+    [SerializeField] private CharacterController cC;
     [Header("Velocity")]
-    public float turnCalmTime = 0.5f;
-    public float turnCalmTime2 = 0.3f;
-    float turnCalmVelocity;
-    public float angle;
+    [SerializeField] private float turnCalmTime = 0.5f;
+    [SerializeField] private float turnCalmTime2 = 0.3f;
+    [SerializeField] float turnCalmVelocity;
+    [SerializeField] private float angle;
+    private bool _isWalking;
    
 
     // Start is called before the first frame update
@@ -50,6 +51,9 @@ public class Movement : MonoBehaviour
 
             // hansi terefe irelilesin
             Vector3 moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            
+            _isWalking = moveDirection != Vector3.zero;
+            
 
             // irelilesin
             cC.Move(moveDirection.normalized * speed * Time.deltaTime);
@@ -57,6 +61,15 @@ public class Movement : MonoBehaviour
 
 
         }
+        else
+        {
+            _isWalking = false;
+        }
 
+    }
+
+    public bool Iswalking()
+    {
+        return _isWalking;
     }
 }
