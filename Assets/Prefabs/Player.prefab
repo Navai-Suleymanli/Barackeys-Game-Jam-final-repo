@@ -465,7 +465,7 @@ MonoBehaviour:
   speed: 5
   playerCamera: {fileID: 0}
   cC: {fileID: 6864468427509427880}
-  turnCalmTime: 0.5
+  turnCalmTime: 0.3
   turnCalmTime2: 0.3
   turnCalmVelocity: 0
   angle: 0
