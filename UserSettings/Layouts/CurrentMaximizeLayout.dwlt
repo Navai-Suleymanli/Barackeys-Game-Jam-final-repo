@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24
+  controlID: 6767
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 556
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 92e2ffff56e4ffff14fbffff
+      m_SelectedIDs: 486f0000
+      m_LastClickedID: 28488
+      m_ExpandedIDs: de80feff0681feff0e81feff1681feff1c81feffa4bffeffaebffeff92e2ffff56e4ffff14fbffffee6e0000646f0000806f00008a6f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -244,7 +244,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 16.835697, y: 3.4497578, z: 24.096064}
+    m_Target: {x: -16.170002, y: -16.443905, z: -16.218067}
     speed: 2
-    m_Value: {x: 16.835697, y: 3.4497578, z: 24.096064}
+    m_Value: {x: -16.170002, y: -16.443905, z: -16.218067}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -587,9 +587,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.005675024, y: -0.05937748, z: -0.00045430416, w: -0.9983679}
+    m_Target: {x: -0.43613902, y: -0.0844623, z: 0.040694468, w: -0.89521664}
     speed: 2
-    m_Value: {x: 0.01016609, y: -0.05936603, z: -0.0007215483, w: -0.99818426}
+    m_Value: {x: -0.43604746, y: -0.084444575, z: 0.040685926, w: -0.89502877}
   m_Size:
     m_Target: 29.553514
     speed: 2
@@ -717,22 +717,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gubity Studio\Documents\GitHub\Barackeys-Game-Jam-final-repo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c6d0000
-    m_LastClickedID: 28060
-    m_ExpandedIDs: 00000000206a00009c6d0000b46d0000
+    m_SelectedIDs: 2a760000
+    m_LastClickedID: 30250
+    m_ExpandedIDs: 00000000206a00009c6d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -785,9 +785,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c46e0000
-    m_LastClickedInstanceID: 28356
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 486f0000
+    m_LastClickedInstanceID: 28488
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000486a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -864,8 +864,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
