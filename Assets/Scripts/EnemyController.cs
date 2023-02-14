@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour
     int currentWp = 0;
     public float speed = 10.0f;
     public float rotSpeed = 5.0f;
+    private bool _isPlayer;
 
 
     //See player
@@ -34,6 +35,7 @@ public class EnemyController : MonoBehaviour
         if (distance <= lookRadius)
         {
             agent.SetDestination(target.position); //brings enemy to the target(player) position
+            _isPlayer= true;
 
             if (distance <= agent.stoppingDistance)
             {
@@ -41,6 +43,10 @@ public class EnemyController : MonoBehaviour
                 FaceTarget();
             }
 
+        }
+        else
+        {
+            _isPlayer= false;
         }
 
         if (distance > lookRadius)  //moves between waypoints, doesnt follow player
@@ -71,5 +77,11 @@ public class EnemyController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
+    }
+
+    public bool IsPlayer() { 
+         return _isPlayer;
+        Debug.Log(_isPlayer);
+    
     }
 }
