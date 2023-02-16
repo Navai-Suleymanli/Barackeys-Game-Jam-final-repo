@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class Movement : MonoBehaviour
 {
@@ -15,8 +16,10 @@ public class Movement : MonoBehaviour
     [SerializeField] private float turnCalmTime2 = 0.3f;
     [SerializeField] float turnCalmVelocity;
     [SerializeField] private float angle;
+    [SerializeField] private VisualEffect _fogEffect;
+    [SerializeField] private GameObject _fogPlayerPos;
     private bool _isWalking;
-   
+    
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +31,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         PlayerMove();
+        _fogEffect.SetVector3("Position0", this.transform.localPosition);
     }
 
     void PlayerMove()

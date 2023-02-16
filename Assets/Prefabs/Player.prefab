@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181981182}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.99333334, z: 0}
+  m_LocalPosition: {x: 0, y: 0.99333334, z: 0.34}
   m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42,16 +42,16 @@ Light:
   m_GameObject: {fileID: 1181981182}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 2
+  m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 8.83
-  m_Range: 10.05
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_Intensity: 26
+  m_Range: 10
+  m_SpotAngle: 120
+  m_InnerSpotAngle: 41
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -282,13 +282,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f2d1bade73f1394085bd67a274ce1ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   playerCamera: {fileID: 0}
   cC: {fileID: 6864468427509427880}
-  turnCalmTime: 0.3
-  turnCalmTime2: 0.3
+  turnCalmTime: 0.2
+  turnCalmTime2: 0.2
   turnCalmVelocity: 0
   angle: 0
+  _fogEffect: {fileID: 0}
+  _fogPlayerPos: {fileID: 3020599932441652691}
 --- !u!1 &3636402212382347678
 GameObject:
   m_ObjectHideFlags: 0
