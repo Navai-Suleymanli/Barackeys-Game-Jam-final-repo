@@ -87,7 +87,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18692
+  controlID: 18889
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: aa140100
-      m_LastClickedID: 70826
-      m_ExpandedIDs: 9214fcff7217fcfffefffefffe04ffff6ab4ffffd6c1ffff6ecdffffacf5ffff14fbffff8c99000054ce000076ce0000
+      m_SelectedIDs: 40840100
+      m_LastClickedID: 99392
+      m_ExpandedIDs: e872faff8475faff9e7afaff387dfaffbc7ffaff9214fcff7217fcfffefffefffe04ffff6ab4ffffd6c1ffff6ecdffffacf5ffff14fbffff8c99000054ce000076ce0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.35268804, y: -0.00014393352, z: -0.0011936636, w: -0.93612635}
     speed: 2
-    m_Value: {x: -0.35268807, y: -0.00014393352, z: -0.0011936636, w: -0.93612635}
+    m_Value: {x: -0.35256067, y: -0.00014388152, z: -0.0011932325, w: -0.9357882}
   m_Size:
     m_Target: 7.572854
     speed: 2
@@ -732,7 +732,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 30}
     m_SelectedIDs: 5e750000
     m_LastClickedID: 30046
-    m_ExpandedIDs: 000000005475000056750000587500005a7500005c7500005e75000060750000ea760000
+    m_ExpandedIDs: 000000005475000056750000587500005a7500005c7500005e75000060750000e6760000ea760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -785,9 +785,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 50180100
-    m_LastClickedInstanceID: 71760
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000486a0000862e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
