@@ -16,8 +16,8 @@ public class Movement : MonoBehaviour
     [SerializeField] private float turnCalmTime2 = 0.3f;
     [SerializeField] float turnCalmVelocity;
     [SerializeField] private float angle;
-    [SerializeField] private VisualEffect _fogEffect;
-    [SerializeField] private GameObject _fogPlayerPos;
+   [SerializeField] private VisualEffect _fogEffect;
+   [SerializeField] private GameObject _fogPlayerPos;
     private bool _isWalking;
     
 
@@ -31,7 +31,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         PlayerMove();
-        _fogEffect.SetVector3("Position0", this.transform.localPosition);
+       _fogEffect.SetVector3("Position0", this.transform.localPosition);
     }
 
     void PlayerMove()
