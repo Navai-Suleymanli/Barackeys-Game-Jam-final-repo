@@ -1015,8 +1015,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6413750909312505407}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1412,6 +1412,7 @@ GameObject:
   - component: {fileID: 6413750909321897377}
   - component: {fileID: 419911013566291148}
   - component: {fileID: 8865928994140960933}
+  - component: {fileID: 5407730717454920244}
   m_Layer: 0
   m_Name: devil@pose 1
   m_TagString: Untagged
@@ -1446,7 +1447,7 @@ Animator:
   m_GameObject: {fileID: 6413750909312505457}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2536ecdb19e6dc74782ce75978552135, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aff8b4358c4019e48b0270c8d9693ec3, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1490,10 +1491,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e4773a8caccfb40ac65d4fafef8441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wayPoints: []
+  wayPoints:
+  - {fileID: 0}
+  - {fileID: 0}
   speed: 9
   rotSpeed: 15
   lookRadius: 5
+--- !u!114 &5407730717454920244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6413750909312505457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cfbe6d75ce52684fb1e3f7db5854764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 6413750909321897377}
+  _enemyController: {fileID: 8865928994140960933}
 --- !u!1 &6413750909312505459
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,8 +1752,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6413750909312505793}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

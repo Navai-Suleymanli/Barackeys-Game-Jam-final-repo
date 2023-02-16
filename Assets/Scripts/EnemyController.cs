@@ -11,6 +11,7 @@ public class EnemyController : MonoBehaviour
     public float speed = 10.0f;
     public float rotSpeed = 5.0f;
     private bool _isPlayer;
+    private bool _isFlying;
 
 
     //See player
@@ -31,11 +32,13 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(target.transform.position, transform.position);
+        
 
         if (distance <= lookRadius)
         {
             agent.SetDestination(target.position); //brings enemy to the target(player) position
             _isPlayer= true;
+            
 
             if (distance <= agent.stoppingDistance)
             {
@@ -54,15 +57,22 @@ public class EnemyController : MonoBehaviour
             if (Vector3.Distance(this.transform.position, wayPoints[currentWp].transform.position) <= 3)
             {
                 currentWp++; //we increment waypoint
+                
             }
             if (currentWp >= wayPoints.Length)
             {
                 currentWp = 0;
             }
 
+
             Quaternion lookAtWp = Quaternion.LookRotation(wayPoints[currentWp].transform.position - this.transform.position);
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, lookAtWp, rotSpeed * Time.deltaTime);
             this.transform.Translate(0, 0, speed * Time.deltaTime);
+            _isFlying = true;
+        }
+        else
+        {
+            _isFlying = false;  
         }
     }
 
@@ -81,7 +91,11 @@ public class EnemyController : MonoBehaviour
 
     public bool IsPlayer() { 
          return _isPlayer;
-        Debug.Log(_isPlayer);
-    
+        
+ 
+    }
+    public bool IsFlying()
+    {
+        return _isFlying;
     }
 }
