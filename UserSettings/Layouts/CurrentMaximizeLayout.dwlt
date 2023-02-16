@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 14749
+  controlID: 18692
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ac91fdff
-      m_LastClickedID: -159316
-      m_ExpandedIDs: fefffefffe04ffff6ab4ffffd6c1ffff6ecdffffacf5ffff14fbffff8c99000054ce000076ce0000
+      m_SelectedIDs: aa140100
+      m_LastClickedID: 70826
+      m_ExpandedIDs: 9214fcff7217fcfffefffefffe04ffff6ab4ffffd6c1ffff6ecdffffacf5ffff14fbffff8c99000054ce000076ce0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.36976206, y: 19.308748, z: -43.829323}
+    m_Target: {x: 2.080998, y: 19.240234, z: -43.763054}
     speed: 2
-    m_Value: {x: 0.36976206, y: 19.308748, z: -43.829323}
+    m_Value: {x: 2.080998, y: 19.240234, z: -43.763054}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -587,9 +587,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.34880504, y: 0.0700828, z: -0.02740669, w: -0.93455607}
+    m_Target: {x: -0.35268804, y: -0.00014393352, z: -0.0011936636, w: -0.93612635}
     speed: 2
-    m_Value: {x: -0.34880504, y: 0.0700828, z: -0.02740669, w: -0.93455607}
+    m_Value: {x: -0.35268807, y: -0.00014393352, z: -0.0011936636, w: -0.93612635}
   m_Size:
     m_Target: 7.572854
     speed: 2
@@ -671,9 +671,9 @@ MonoBehaviour:
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 11}
-  - {fileID: 12}
   - {fileID: 2}
-  m_Selected: 2
+  - {fileID: 12}
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -717,21 +717,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Day-Night Skyboxes/Materials
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Day-Night Skyboxes/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gubity Studio\Documents\GitHub\Barackeys-Game-Jam-final-repo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1ad70000
-    m_LastClickedID: 55066
+    scrollPos: {x: 0, y: 30}
+    m_SelectedIDs: 5e750000
+    m_LastClickedID: 30046
     m_ExpandedIDs: 000000005475000056750000587500005a7500005c7500005e75000060750000ea760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -785,9 +785,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 2ad70000
-    m_LastClickedInstanceID: 55082
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 50180100
+    m_LastClickedInstanceID: 71760
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000486a0000862e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
