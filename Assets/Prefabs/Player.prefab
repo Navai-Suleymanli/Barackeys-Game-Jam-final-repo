@@ -45,10 +45,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 26
-  m_Range: 10
-  m_SpotAngle: 120
-  m_InnerSpotAngle: 41
+  m_Intensity: 27.43
+  m_Range: 18.4
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 77.2348
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -247,6 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3020599932441652692}
   - component: {fileID: 80668905}
+  - component: {fileID: 876953918}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -284,13 +285,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   playerCamera: {fileID: 0}
-  cC: {fileID: 6864468427509427880}
+  cC: {fileID: 876953918}
   turnCalmTime: 0.2
   turnCalmTime2: 0.2
   turnCalmVelocity: 0
   angle: 0
   _fogEffect: {fileID: 0}
   _fogPlayerPos: {fileID: 3020599932441652691}
+--- !u!143 &876953918
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3020599932441652691}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3636402212382347678
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,7 +615,7 @@ CharacterController:
   m_GameObject: {fileID: 6864468427509427878}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.5
