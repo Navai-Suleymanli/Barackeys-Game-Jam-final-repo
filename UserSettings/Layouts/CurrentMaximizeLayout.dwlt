@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 185
+  controlID: 1151
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 68f0ffff80f3ffffe8faffff
+      m_SelectedIDs: ae3affff
+      m_LastClickedID: -50514
+      m_ExpandedIDs: 4867ffffde8fffff72ecffff94ecffffa4ecffff7cedffffe8faffff2a8e00004c8e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -19.214273, y: 9.262357, z: -33.71228}
+    m_Target: {x: -18.268349, y: 3.1084948, z: -26.625051}
     speed: 2
-    m_Value: {x: -19.214273, y: 9.262357, z: -33.71228}
+    m_Value: {x: -18.268349, y: 3.1084948, z: -26.625051}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -557,7 +557,7 @@ MonoBehaviour:
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
-    m_FxEnabled: 0
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -587,13 +587,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.33217272, y: -0.22089335, z: 0.07899799, w: -0.91399443}
+    m_Target: {x: 0.12665848, y: 0.784237, z: -0.17034541, w: 0.583038}
     speed: 2
-    m_Value: {x: -0.33204672, y: -0.22080956, z: 0.078968026, w: -0.9136478}
+    m_Value: {x: 0.12665716, y: 0.7842288, z: -0.17034362, w: 0.58303183}
   m_Size:
-    m_Target: 0.08643599
+    m_Target: 0.3535215
     speed: 2
-    m_Value: 0.08643599
+    m_Value: 0.3535215
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -642,7 +642,7 @@ MonoBehaviour:
     x: 363
     y: 73
     width: 1101
-    height: 501
+    height: 459
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -717,22 +717,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/TrueClouds/ExampleScenes/Models
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/TrueClouds/ExampleScenes/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gubity Studio\Documents\GitHub\Barackeys-Game-Jam-final-repo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 30}
-    m_SelectedIDs: 94760000
-    m_LastClickedID: 30356
-    m_ExpandedIDs: 000000008a7600008c7600008e76000090760000927600009476000096760000987600000e780000
+    scrollPos: {x: 0, y: 254}
+    m_SelectedIDs: 52900000
+    m_LastClickedID: 36946
+    m_ExpandedIDs: 000000008a7600008c7600008e76000090760000927600009476000096760000987600001e780000529000009290000098900000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -785,10 +785,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000486a0000862e0000
+    m_SelectedInstanceIDs: ae3affff
+    m_LastClickedInstanceID: -50514
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000486a0000862e000042900000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
