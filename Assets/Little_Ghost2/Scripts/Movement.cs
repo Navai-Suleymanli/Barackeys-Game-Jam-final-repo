@@ -31,7 +31,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         PlayerMove();
-       _fogEffect.SetVector3("Position0", this.transform.localPosition);
+       _fogEffect.SetVector3("Position0", _fogPlayerPos.transform.position);
     }
 
     void PlayerMove()
