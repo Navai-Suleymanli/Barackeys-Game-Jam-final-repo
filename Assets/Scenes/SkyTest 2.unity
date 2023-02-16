@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.021441903, g: 0.02530965, b: 0.029372727, a: 1}
+  m_IndirectSpecularColor: {r: 0.024313737, g: 0.028704766, b: 0.033307515, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2665,7 +2665,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.37945586, y: -0.0015984877, z: 0.0006555882, w: 0.9252082}
+  m_LocalRotation: {x: 0.37945586, y: -0.0015984878, z: 0.00065558817, w: 0.9252082}
   m_LocalPosition: {x: -15.980759, y: 17.310663, z: -44.31691}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15200,7 +15200,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6864468428217114746}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1648855364
 MonoBehaviour:
@@ -16021,7 +16021,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6864468428217114746}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1826872803
 GameObject:
@@ -18451,7 +18451,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097051088}
-  m_LocalRotation: {x: 0.37945586, y: -0.0015984877, z: 0.0006555882, w: 0.9252082}
+  m_LocalRotation: {x: 0.37945586, y: -0.0015984878, z: 0.00065558817, w: 0.9252082}
   m_LocalPosition: {x: -15.980759, y: 17.310663, z: -44.31691}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -21179,7 +21179,7 @@ Transform:
   - {fileID: 6321357732468436035}
   - {fileID: 7730328550943106028}
   m_Father: {fileID: 6864468428217114746}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6864468427477754686
 Animator:
@@ -21264,9 +21264,9 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6397861174176597203}
   - {fileID: 1819219176}
   - {fileID: 1648855363}
+  - {fileID: 6397861174176597203}
   m_Father: {fileID: 3020599931801330441}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
