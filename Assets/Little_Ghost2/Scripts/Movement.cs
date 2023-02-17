@@ -61,12 +61,19 @@ public class Movement : MonoBehaviour
         {
             GameObject.FindWithTag("Enemy").SetActive(false);
             Instantiate(particle, transform.position, transform.rotation);
-            //particle.Play();
             hasPowerUp = false;
             powerUpCount--;
             powerUpIndicator.SetActive(false);  
             normalLight.SetActive(true);
 
+        }
+        if (!hasPowerUp && Vector3.Distance(gameObject.transform.position, GameObject.FindWithTag("Enemy").transform.position) <= 3f)
+        {
+            //bura basqa effect qoymaq lazimdir. Player olende ayri, dusmen olende ayri olsun
+            gameObject.SetActive(false);
+            Instantiate(particle, transform.position, transform.rotation);
+            hasPowerUp = false;
+            powerUpCount--;
         }
     }
 
