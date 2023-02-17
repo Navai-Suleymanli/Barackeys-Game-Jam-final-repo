@@ -26,6 +26,7 @@ public class Movement : MonoBehaviour
     [SerializeField] bool hasPowerUp;
     [SerializeField] GameObject powerUpIndicator;
     [SerializeField] GameObject normalLight;
+    [SerializeField] GameObject[] GameObjects;
 
 
     // Start is called before the first frame update
@@ -46,6 +47,16 @@ public class Movement : MonoBehaviour
             hasPowerUp = true;
             powerUpIndicator.SetActive(true);
             normalLight.SetActive(false);
+
+        }
+
+        if (hasPowerUp && Vector3.Distance(gameObject.transform.position, GameObject.FindWithTag("Enemy").transform.position) <= 3f)
+        {
+            GameObject.FindWithTag("Enemy").SetActive(false);
+            hasPowerUp = false;
+            powerUpCount--;
+            powerUpIndicator.SetActive(false);  
+            normalLight.SetActive(true);
 
         }
     }
