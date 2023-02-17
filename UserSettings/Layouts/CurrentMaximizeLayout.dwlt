@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2437
+  controlID: 2964
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fc810000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 9cd2ffff74d3ffff72d4fffff2d9ffffe4daffff38dfffff8ee3ffff64e4ffffb8e8ffffccebffff20f0ffffeafaffff
+      m_SelectedIDs: 54dc0000
+      m_LastClickedID: 56404
+      m_ExpandedIDs: 342dffff9cd2ffff74d3ffff72d4fffff2d9ffffe4daffff38dfffff8ee3ffff64e4ffffb8e8ffffccebffff20f0ffffeafaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 1103
     height: 522
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -572,9 +572,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 48.497192, y: -118.96805, z: 84.78147}
+    m_Target: {x: -0.42056656, y: -91.22213, z: 41.026}
     speed: 2
-    m_Value: {x: 48.497192, y: -118.96805, z: 84.78147}
+    m_Value: {x: -0.42056656, y: -91.22213, z: 41.026}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -621,13 +621,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.34486666, y: -0.2257348, z: 0.08584242, w: -0.9071147}
+    m_Target: {x: -0.39589232, y: -0.14855917, z: 0.06509008, w: -0.9039241}
     speed: 2
-    m_Value: {x: -0.3448468, y: -0.2257218, z: 0.08583748, w: -0.9070625}
+    m_Value: {x: -0.39586937, y: -0.14855056, z: 0.06508631, w: -0.9038717}
   m_Size:
-    m_Target: 128.19305
+    m_Target: 116.915276
     speed: 2
-    m_Value: 128.19305
+    m_Value: 116.915276
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -738,7 +738,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 2}
   m_Selected: 2
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -781,21 +781,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Fog_Plane
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Fog_Plane
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gubity Studio\Documents\GitHub\Barackeys-Game-Jam-final-repo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 47}
-    m_SelectedIDs: 7c830000
-    m_LastClickedID: 33660
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 7a830000
+    m_LastClickedID: 33658
     m_ExpandedIDs: 000000008e81000090810000928100009481000096810000988100009a8100009c8100009e810000a0810000a2810000a4810000a6810000a8810000aa810000ac810000ae810000b0810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -849,8 +849,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 74ad0000
-    m_LastClickedInstanceID: 44404
+    m_SelectedInstanceIDs: 54dc0000
+    m_LastClickedInstanceID: 56404
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000486a0000
     m_RenameOverlay:
@@ -928,8 +928,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
