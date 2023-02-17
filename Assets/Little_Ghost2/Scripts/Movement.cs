@@ -19,12 +19,19 @@ public class Movement : MonoBehaviour
    [SerializeField] private VisualEffect _fogEffect;
    [SerializeField] private GameObject _fogPlayerPos;
     private bool _isWalking;
-    
+
+
+    [Header("PowerUp")]
+    [SerializeField] int powerUpCount = 0;
+    [SerializeField] bool hasPowerUp;
+    [SerializeField] GameObject powerUpIndicator;
+    [SerializeField] GameObject normalLight;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        hasPowerUp = false;
     }
 
     // Update is called once per frame
@@ -32,6 +39,24 @@ public class Movement : MonoBehaviour
     {
         PlayerMove();
        _fogEffect.SetVector3("Position0", _fogPlayerPos.transform.position);
+
+
+        if (powerUpCount >= 1)
+        {
+            hasPowerUp = true;
+            powerUpIndicator.SetActive(true);
+            normalLight.SetActive(false);
+
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Powerup") && !hasPowerUp)
+        {
+            powerUpCount++;            
+            Destroy(other.gameObject);
+        }   
     }
 
     void PlayerMove()
