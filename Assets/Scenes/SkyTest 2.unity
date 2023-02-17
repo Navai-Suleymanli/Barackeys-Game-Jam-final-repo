@@ -7627,6 +7627,12 @@ PrefabInstance:
       objectReference: {fileID: 748264343}
     - target: {fileID: 5183252628228160313, guid: b728d8f8e17574745a5cc87ecfe3d586,
         type: 3}
+      propertyPath: particle
+      value: 
+      objectReference: {fileID: 6261375192629908893, guid: 3f81e3e0646e06c43a7301cce93a0c8c,
+        type: 3}
+    - target: {fileID: 5183252628228160313, guid: b728d8f8e17574745a5cc87ecfe3d586,
+        type: 3}
       propertyPath: goodness1
       value: 
       objectReference: {fileID: 748264343}

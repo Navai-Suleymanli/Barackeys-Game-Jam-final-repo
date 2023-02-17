@@ -33,7 +33,7 @@ public class Movement : MonoBehaviour
     [SerializeField] GameObject normalLight;
     //[SerializeField] GameObject[] powerups;
 
-    
+    [SerializeField] ParticleSystem particle;
 
 
     // Start is called before the first frame update
@@ -60,6 +60,8 @@ public class Movement : MonoBehaviour
         if (hasPowerUp && Vector3.Distance(gameObject.transform.position, GameObject.FindWithTag("Enemy").transform.position) <= 3f)
         {
             GameObject.FindWithTag("Enemy").SetActive(false);
+            Instantiate(particle, transform.position, transform.rotation);
+            //particle.Play();
             hasPowerUp = false;
             powerUpCount--;
             powerUpIndicator.SetActive(false);  
