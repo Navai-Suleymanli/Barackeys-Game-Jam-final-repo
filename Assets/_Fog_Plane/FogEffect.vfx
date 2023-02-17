@@ -18,9 +18,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: 2798
-    y: -881
-    width: 683
-    height: 2170
+    y: -961
+    width: 696
+    height: 2250
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -63,7 +63,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 600
+      m_SerializableObject: 2500
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -105,7 +105,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5
+      m_SerializableObject: 6
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614556}
-  m_UIPosition: {x: 3057, y: -881}
+  m_UIPosition: {x: 3057, y: -961}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -315,7 +315,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614612}
   - {fileID: 8926484042661614614}
   - {fileID: 8926484042661614661}
-  m_UIPosition: {x: 3057, y: -576}
+  m_UIPosition: {x: 3070, y: -711}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -359,7 +359,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":2.3997650146484377,"y":1.4014217853546143,"z":-1.5931968688964844},"size":{"x":87.85397338867188,"y":3.960069179534912,"z":77.34993743896485}}'
+      m_SerializableObject: '{"center":{"x":9.949302673339844,"y":1.4014217853546143,"z":26.134613037109376},"size":{"x":103.0,"y":3.960069179534912,"z":135.0}}'
     m_Space: 0
   m_Property:
     name: bounds
@@ -522,7 +522,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614566}
   - {fileID: 8926484042661614567}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614559}
   m_MasterData:
@@ -662,7 +662,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614583}
   - {fileID: 8926484042661614585}
   dataType: 0
-  capacity: 15000
+  capacity: 10000
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -1307,7 +1307,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614598}
   - {fileID: 8926484042661614599}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614596}
   m_MasterData:
@@ -1494,7 +1494,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 600
+      m_SerializableObject: 2500
     m_Space: 2147483647
   m_Property:
     name: o
@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
@@ -1982,7 +1982,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":14.201492309570313,"y":0.0,"z":20.03890609741211},"size":{"x":85.21575927734375,"y":10.0,"z":76.1500015258789}}'
+      m_SerializableObject: '{"center":{"x":14.201492309570313,"y":0.0,"z":20.03890609741211},"size":{"x":150.0,"y":10.0,"z":130.0}}'
     m_Space: 0
   m_Property:
     name: Box
@@ -2331,7 +2331,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5
+      m_SerializableObject: 6
     m_Space: 2147483647
   m_Property:
     name: o
@@ -2357,7 +2357,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
