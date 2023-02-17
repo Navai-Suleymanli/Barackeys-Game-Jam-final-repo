@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
+using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class Movement : MonoBehaviour
 {
@@ -20,13 +24,16 @@ public class Movement : MonoBehaviour
    [SerializeField] private GameObject _fogPlayerPos;
     private bool _isWalking;
 
+    public TextMeshProUGUI goodness;
 
     [Header("PowerUp")]
     [SerializeField] int powerUpCount = 0;
     [SerializeField] bool hasPowerUp;
     [SerializeField] GameObject powerUpIndicator;
     [SerializeField] GameObject normalLight;
-    [SerializeField] GameObject[] GameObjects;
+    //[SerializeField] GameObject[] powerups;
+
+    
 
 
     // Start is called before the first frame update
@@ -61,14 +68,28 @@ public class Movement : MonoBehaviour
         }
     }
 
+    //POWERUPLAR
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Powerup") && !hasPowerUp)
+        if (other.CompareTag("Powerup1") && !hasPowerUp)
         {
             powerUpCount++;            
             Destroy(other.gameObject);
+            goodness.text = "You've fed homeless cats in the streets";
+            StartCoroutine(Goodness());
         }   
     }
+
+
+
+    //IENumerators
+
+    IEnumerator Goodness()
+    {
+        yield return new WaitForSeconds(4);
+        goodness.gameObject.SetActive(false);
+    }
+
 
     void PlayerMove()
     {
