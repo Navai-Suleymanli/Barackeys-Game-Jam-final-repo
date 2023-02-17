@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 8490
+  controlID: 232
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 628c0000
-      m_LastClickedID: 35938
-      m_ExpandedIDs: 5aeeffffb2f2ffffeaf7ffffeafaffff
+      m_SelectedIDs: 3a800000
+      m_LastClickedID: 0
+      m_ExpandedIDs: f2f1ffffeafaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 1103
     height: 514
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -572,9 +572,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -25.094429, y: 14.83681, z: -51.14453}
+    m_Target: {x: -25.117601, y: 14.850731, z: -51.159534}
     speed: 2
-    m_Value: {x: -25.094429, y: 14.83681, z: -51.14453}
+    m_Value: {x: -25.117601, y: 14.850731, z: -51.159534}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -591,7 +591,7 @@ MonoBehaviour:
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
-    m_FxEnabled: 0
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -621,13 +621,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.42691633, y: 0.029019939, z: -0.013704748, w: -0.9037527}
+    m_Target: {x: -0.23597568, y: -0.06786443, z: 0.016525056, w: -0.9692782}
     speed: 2
-    m_Value: {x: -0.42690426, y: 0.02901912, z: -0.01370436, w: -0.9037272}
+    m_Value: {x: -0.2359682, y: -0.06786228, z: 0.016524533, w: -0.96924746}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 0.03224516
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 0.03224516
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -781,22 +781,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gubity Studio\Documents\GitHub\Barackeys-Game-Jam-final-repo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 416}
-    m_SelectedIDs: 48730000
-    m_LastClickedID: 29512
-    m_ExpandedIDs: 00000000b8720000ba720000bc720000be720000c0720000c2720000c4720000c6720000c8720000ca720000cc720000ce720000d0720000e2720000e6720000e8720000ea720000ec720000ee720000
+    scrollPos: {x: 0, y: 432}
+    m_SelectedIDs: 8e7f0000
+    m_LastClickedID: 32654
+    m_ExpandedIDs: 00000000847f0000867f0000887f00008a7f00008c7f00008e7f0000907f0000927f0000947f0000967f0000987f00009a7f00009c7f00009e7f0000a07f0000a27f0000a47f0000a67f0000ac7f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -824,7 +824,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b8720000ba720000bc720000be720000c0720000c2720000c4720000c6720000c8720000ca720000cc720000ce720000d0720000e6720000e8720000ea720000ec720000ee720000
+    m_ExpandedIDs: 00000000847f0000867f0000887f00008a7f00008c7f00008e7f0000907f0000927f0000947f0000967f0000987f00009a7f00009c7f00009e7f0000a07f0000a27f0000a47f0000a67f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -849,8 +849,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 628c0000
-    m_LastClickedInstanceID: 35938
+    m_SelectedInstanceIDs: 3a800000
+    m_LastClickedInstanceID: 32826
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000486a0000862e000042900000964801001c32010000000000
     m_RenameOverlay:
@@ -928,8 +928,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
