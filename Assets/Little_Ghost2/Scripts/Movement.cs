@@ -24,6 +24,7 @@ public class Movement : MonoBehaviour
    [SerializeField] private GameObject _fogPlayerPos;
     private bool _isWalking;
 
+
     public TextMeshProUGUI goodness;
 
     [Header("PowerUp")]
@@ -31,10 +32,12 @@ public class Movement : MonoBehaviour
     [SerializeField] bool hasPowerUp;
     [SerializeField] GameObject powerUpIndicator;
     [SerializeField] GameObject normalLight;
-    //[SerializeField] GameObject[] powerups;
 
     [SerializeField] ParticleSystem particle;
 
+    [Header("Enemy variables")]
+    public bool enemy_close;
+    public GameObject dusmen;
 
     // Start is called before the first frame update
     void Start()
@@ -48,6 +51,7 @@ public class Movement : MonoBehaviour
         PlayerMove();
        _fogEffect.SetVector3("Position0", _fogPlayerPos.transform.position);
 
+        FindEnemy();
 
         if (powerUpCount >= 1)
         {
@@ -57,9 +61,10 @@ public class Movement : MonoBehaviour
 
         }
 
-        if (hasPowerUp && Vector3.Distance(gameObject.transform.position, GameObject.FindWithTag("Enemy").transform.position) <= 3f)
+        if (hasPowerUp && enemy_close)
         {
-            GameObject.FindWithTag("Enemy").SetActive(false);
+            dusmen.SetActive(false);
+            enemy_close = false;
             Instantiate(particle, transform.position, transform.rotation);
             hasPowerUp = false;
             powerUpCount--;
@@ -67,7 +72,7 @@ public class Movement : MonoBehaviour
             normalLight.SetActive(true);
 
         }
-        if (!hasPowerUp && Vector3.Distance(gameObject.transform.position, GameObject.FindWithTag("Enemy").transform.position) <= 3f)
+        if (!hasPowerUp && enemy_close)
         {
             //bura basqa effect qoymaq lazimdir. Player olende ayri, dusmen olende ayri olsun
             gameObject.SetActive(false);
@@ -75,6 +80,23 @@ public class Movement : MonoBehaviour
             hasPowerUp = false;
             powerUpCount--;
         }
+    }
+
+    public bool FindEnemy()
+    {
+        GameObject[] enemies;
+        enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach (GameObject en in enemies)
+        {
+            float mesafe = Vector3.Distance(gameObject.transform.position, en.transform.position);
+            if (mesafe <= 3f)
+            {
+               dusmen = en;
+               enemy_close = true;
+            }
+        }
+       return enemy_close;
     }
 
     //POWERUPLAR
