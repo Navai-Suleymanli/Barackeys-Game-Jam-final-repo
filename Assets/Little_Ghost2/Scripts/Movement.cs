@@ -106,9 +106,23 @@ public class Movement : MonoBehaviour
         {
             powerUpCount++;            
             Destroy(other.gameObject);
-            goodness.text = "You've fed homeless cats in the streets";
+            goodness.text = "You've fed homeless cats in the streets ;) ";
             StartCoroutine(Goodness());
-        }   
+        }
+        if (other.CompareTag("Powerup2") && !hasPowerUp)
+        {
+            powerUpCount++;
+            Destroy(other.gameObject);
+            goodness.text = "You were donating to charity each month :)";
+            StartCoroutine(Goodness());
+        }
+        if (other.CompareTag("Powerup3") && !hasPowerUp)
+        {
+            powerUpCount++;
+            Destroy(other.gameObject);
+            goodness.text = "You gave nought a toy for a poor child <3";
+            StartCoroutine(Goodness());
+        }
     }
 
 
