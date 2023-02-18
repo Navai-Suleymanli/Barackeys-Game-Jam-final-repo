@@ -120,7 +120,7 @@ public class Movement : MonoBehaviour
         {
             powerUpCount++;
             Destroy(other.gameObject);
-            goodness.text = "You gave nought a toy for a poor child <3";
+            goodness.text = "You have bought a toy for a poor child <3";
             StartCoroutine(Goodness());
         }
     }
