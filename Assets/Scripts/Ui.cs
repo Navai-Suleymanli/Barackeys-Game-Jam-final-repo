@@ -20,5 +20,6 @@ public class Ui : MonoBehaviour
     public void loadGame()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1f;
     }
 }
