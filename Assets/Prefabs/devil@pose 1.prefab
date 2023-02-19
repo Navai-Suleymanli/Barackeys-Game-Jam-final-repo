@@ -160,7 +160,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1246,7 +1246,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6413750909312505407}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 1.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1643,9 +1643,10 @@ GameObject:
   - component: {fileID: 419911013566291148}
   - component: {fileID: 8865928994140960933}
   - component: {fileID: -7685870552944618750}
+  - component: {fileID: 1950982735}
   m_Layer: 0
   m_Name: devil@pose 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1708,7 +1709,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 1
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &8865928994140960933
@@ -1726,9 +1727,9 @@ MonoBehaviour:
   wayPoints:
   - {fileID: 0}
   - {fileID: 0}
-  speed: 9
+  speed: 11
   rotSpeed: 15
-  lookRadius: 5
+  lookRadius: 7
 --- !u!114 &-7685870552944618750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1743,6 +1744,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 6413750909321897377}
   _enemyController: {fileID: 8865928994140960933}
+--- !u!136 &1950982735
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6413750909312505457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.1420593
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5710287, z: 0}
 --- !u!1 &6413750909312505459
 GameObject:
   m_ObjectHideFlags: 0
