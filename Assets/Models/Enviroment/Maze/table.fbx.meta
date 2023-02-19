@@ -3,7 +3,12 @@ guid: a1faa9ab1fec4034eac0a2e74df416cc
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stol
+    second: {fileID: 2100000, guid: 68141c48782db9340ba6ae4473cb25bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

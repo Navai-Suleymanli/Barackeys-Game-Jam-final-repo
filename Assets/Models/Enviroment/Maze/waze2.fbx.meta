@@ -3,7 +3,12 @@ guid: 129c7c15f284fd54d9e23d8d33b6a1aa
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: icki
+    second: {fileID: 2100000, guid: 4dcf14ea18783844ba6c1256131072ca, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,12 @@ guid: b8b9b23a31e2e624db8fafb8df7eac61
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: qilinc demiri2
+    second: {fileID: 2100000, guid: 05933850985e0a747bb6ae3a9572d2fa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
