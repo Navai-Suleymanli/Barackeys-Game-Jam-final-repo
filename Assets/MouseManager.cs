@@ -25,5 +25,9 @@ public class MouseManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         Debug.Log("MouseUP");
     }
 
-  
+  public void ExitApp()
+    {
+        Application.Quit();
+
+    }
 }
