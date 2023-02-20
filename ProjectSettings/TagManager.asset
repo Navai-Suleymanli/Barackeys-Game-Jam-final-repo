@@ -10,6 +10,8 @@ TagManager:
   - Enemy2
   - Powerup2
   - Powerup3
+  - Divar
+  - Yaxsiliq
   layers:
   - Default
   - TransparentFX
