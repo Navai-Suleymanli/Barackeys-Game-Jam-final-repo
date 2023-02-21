@@ -96,7 +96,7 @@ MonoBehaviour:
   Path: Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638122802467347279
+  lastModified: 638126111160109751
   FileSizes: []
   Exists: 1
 --- !u!114 &-4979211414724640790
@@ -141,11 +141,38 @@ MonoBehaviour:
   Path: Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638122802467347279
+  lastModified: 638126111160124280
   FileSizes:
   - Name: 
-    Value: 1100
+    Value: 1182
   Exists: 1
+--- !u!114 &-1253200795085254213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ScaryMusic
+  m_EditorClassIdentifier: 
+  Path: event:/ScaryMusic
+  Guid:
+    Data1: -1272839035
+    Data2: 1169272247
+    Data3: -1341672546
+    Data4: 195079131
+  Banks:
+  - {fileID: -7644803058212868296}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,13 +198,42 @@ MonoBehaviour:
   - {fileID: -7868855952568532509}
   - {fileID: 5069815277914052025}
   - {fileID: 6968214887769352766}
+  - {fileID: 657455514087812530}
+  - {fileID: -1253200795085254213}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7644803058212868296}
   StringsBanks:
   - {fileID: -2062411398220219580}
-  cacheTime: 638122802467357290
+  cacheTime: 638126111160363291
   cacheVersion: 131601
+--- !u!114 &657455514087812530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scary
+  m_EditorClassIdentifier: 
+  Path: event:/Scary
+  Guid:
+    Data1: -1701248456
+    Data2: 1188137015
+    Data3: 1043914687
+    Data4: 792462203
+  Banks:
+  - {fileID: -7644803058212868296}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12500
 --- !u!114 &5069815277914052025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,7 +341,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 90000
+  Length: 86000
 --- !u!114 &8162760240921382753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,6 +357,6 @@ MonoBehaviour:
   Path: Desktop/Menu.bank
   Name: Menu
   StudioPath: bank:/Menu
-  lastModified: 638122802467357290
+  lastModified: 638126111160363291
   FileSizes: []
   Exists: 1
