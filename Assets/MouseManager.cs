@@ -3,27 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class MouseManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,IPointerDownHandler,IPointerUpHandler
+public class MouseManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,IPointerDownHandler
 {
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("MouseDown");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/MenuForvard");
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("MouseEnter");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/MenuHover");
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log("MouseExit");
+       
+       FMODUnity.RuntimeManager.PlayOneShot("event:/MenuHover2");
     }
 
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        Debug.Log("MouseUP");
-    }
+   
 
   public void ExitApp()
     {

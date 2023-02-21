@@ -96,7 +96,7 @@ MonoBehaviour:
   Path: Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638126111160109751
+  lastModified: 638126127875066731
   FileSizes: []
   Exists: 1
 --- !u!114 &-4979211414724640790
@@ -141,10 +141,10 @@ MonoBehaviour:
   Path: Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638126111160124280
+  lastModified: 638126127875090743
   FileSizes:
   - Name: 
-    Value: 1182
+    Value: 1226
   Exists: 1
 --- !u!114 &-1253200795085254213
 MonoBehaviour:
@@ -200,12 +200,13 @@ MonoBehaviour:
   - {fileID: 6968214887769352766}
   - {fileID: 657455514087812530}
   - {fileID: -1253200795085254213}
+  - {fileID: 5087711330275701841}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7644803058212868296}
   StringsBanks:
   - {fileID: -2062411398220219580}
-  cacheTime: 638126111160363291
+  cacheTime: 638126127875327175
   cacheVersion: 131601
 --- !u!114 &657455514087812530
 MonoBehaviour:
@@ -256,6 +257,33 @@ MonoBehaviour:
   - {fileID: 8162760240921382753}
   IsStream: 0
   Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5087711330275701841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MenuHover2
+  m_EditorClassIdentifier: 
+  Path: event:/MenuHover2
+  Guid:
+    Data1: -590478719
+    Data2: 1103486082
+    Data3: -450143595
+    Data4: -1249774959
+  Banks:
+  - {fileID: -7644803058212868296}
+  IsStream: 0
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -357,6 +385,6 @@ MonoBehaviour:
   Path: Desktop/Menu.bank
   Name: Menu
   StudioPath: bank:/Menu
-  lastModified: 638126111160363291
+  lastModified: 638126127875327175
   FileSizes: []
   Exists: 1
